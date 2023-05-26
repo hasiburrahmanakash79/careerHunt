@@ -1,0 +1,11 @@
+[
+    {"id": 1, "topic": "Developer-portfolio", "mark": 60, "serial": "Assignment-1"},
+    {"id": 2, "topic": "Donate-today", "mark": 58, "serial": "Assignment-2"},
+    {"id": 3, "topic": "New-year-new-me", "mark": 60, "serial": "Assignment-3"},
+    {"id": 4, "topic": "G3-architects", "mark": 60, "serial": "Assignment-4"},
+    {"id": 5, "topic": "Legal-solutions", "mark": 60, "serial": "Assignment-5"},
+    {"id": 6, "topic": "Geometry_genius", "mark": 60, "serial": "Assignment-6"},
+    {"id": 7, "topic": "AI-Universe-Hub", "mark": 60, "serial": "Assignment-7"},
+    {"id": 8, "topic": "Knowledge-cafe", "mark": 60, "serial": "Assignment-8"}
+]
+  

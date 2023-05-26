@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary{ 
+  @apply font-medium md:mb-0 rounded py-2 px-5  text-white bg-gradient-to-r from-blue-500 to-fuchsia-400 
+}
+.btn-outlined{
+  @apply font-medium  md:mb-0 rounded px-4 py-1 text-fuchsia-500 border  border-fuchsia-500
+}
+.btn-outline{
+  @apply font-medium  md:mb-0 rounded px-4 py-1 text-fuchsia-500 border  border-fuchsia-500 hover:bg-gradient-to-r from-blue-400 to-fuchsia-400 hover:text-white 
+}
+@layer utilities{
+  .title{
+    @apply bg-gradient-to-r from-cyan-400 via-purple-300 to-fuchsia-500 bg-clip-text text-transparent 
+  }
+}

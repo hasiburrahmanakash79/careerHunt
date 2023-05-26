@@ -1,0 +1,24 @@
+
+[
+    {
+        "id": "213",
+        "questions": "When you use context API?",
+        "ans": "The Context API is a feature in React, a popular JavaScript library for building user interfaces, that allows for the sharing of data and state across different components in a tree-like structure without the need for prop drilling, which can become cumbersome in larger applications.\n (1)Global State Management: When you have data or state that needs to be accessed by multiple components in different parts of your application, you can use the Context API to create a global state management solution. \n (2) Theming: When you want to provide a way to customize the look and feel of your application, such as changing the color scheme, font size, or other visual styles, you can use the Context API to create a theming solution.\n (3) Authentication and User Data: When you have authentication and user data that needs to be accessed by multiple components, such as user information, login status, or access tokens, you can use the Context API to manage and share that data across your application."
+    },
+    {
+        "id": "232",
+        "questions": "What is custom hook?",
+        "ans": "In React, a custom hook is a JavaScript function that follows a specific naming convention and can be used to encapsulate reusable logic and stateful behavior that can be shared across multiple components. Custom hooks are a way to abstract complex logic and encapsulate it in a reusable function, allowing components to use that function to access the logic and state without duplicating code. \n Custom hooks are created using regular JavaScript functions and can utilize other built-in hooks, such as useState, useEffect, and useContext, as well as other custom hooks. They typically have a prefix of 'use' in their function names, which is a convention that indicates that it's a hook and should be used as such. \n One of the main benefits of using custom hooks is that they promote code reusability and separation of concerns. They allow you to extract common logic from components, making the code more modular and easier to maintain. Custom hooks can encapsulate various types of logic, such as data fetching, state management, event handling etc."
+    },
+    {
+        "id": "233",
+        "questions": "What is useHref?",
+        "ans": "As of my knowledge cutoff date in September 2021, there is no built-in React hook called useHref. It is possible that you may be referring to a custom hook that has been created by someone specific to their application or project. \n In general, custom hooks in React are user-defined functions that follow the naming convention of starting with the prefix 'use', and they encapsulate reusable logic and stateful behavior that can be shared across multiple components. Custom hooks are typically created using regular JavaScript functions and can use other built-in hooks, such as useState, useEffect, and useContext, or other custom hooks, to manage state and behavior in components. \n It is important to note that the React hooks, including custom hooks, are not part of the React API, but rather a convention in the React community to manage state and side-effects in functional components. Therefore, any custom hook named useHref may have been created by someone for a specific use case in their application and may not be a widely recognized or standardized hook in the React ecosystem."
+    },
+    {
+        "id": "313",
+        "questions": "What is useMemo?",
+        "ans": "'useMemo' is a React Hook that lets you cache the result of a calculation between re-renders. \n 'useMemo' is a built-in hook in React that allows you to optimize the performance of your components by memoizing the result of a computation and returning the memoized value if the dependencies haven't changed since the last render. It is used to optimize expensive computations or calculations that are performed within a component, so that they are not recomputed on every render, but only when necessary."
+    }
+    
+]
